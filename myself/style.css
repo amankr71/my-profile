@@ -1,0 +1,82 @@
+body,html{
+    margin: 0;
+    font-family:arial;
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+
+#header{
+    background:black;
+    width:100%;
+    position:fixed;
+    left:0;
+    top:0;
+}
+
+.container{
+    width:85%;
+    margin: 0 auto;
+}
+
+#header .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.main-nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.main-nav ul li{
+    float: left;
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+.main-nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.photo img{
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.profile-section,
+.personality-section,
+.hobby-section,
+.contact-section{
+    margin-top:-50px;
+    height:100vh;
+    align-items:center;
+    display:flex;
+}
+
+.profile-section{
+    background: #caf1e9;
+}
+
+.personality-section{
+    background:#a2ecbe;
+    color: rgb(170, 26, 26);
+}
+
+.hobby-section{
+    background:rgb(154, 154, 240);
+}
+
+.contact-section{
+    background:rgb(162, 240, 162);
+}
+.card-text{
+    color:darkgreen;
+}
+.container h1{
+    color:darkmagenta;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: rgb(162, 240, 162);
+}
